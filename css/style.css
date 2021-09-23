@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+#txt-input{
+    font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  
+  border-radius: 0.5rem;
+   
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+p{
+    color: #FFB344;
+}
+.nav{
+    background-color: #FFB344;
+    padding: 15px;
+    margin:auto auto 50px;
+}
+#btn{
+    background-color:#FFB344;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 50px 40%;
+    padding: 15px;
+}
+.result{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 30%;
+    padding: 40px;
+    border: solid;
+    border-radius: 0.5rem;
+}
+@media (max-width:650px) {
+    .result{
+        margin: auto 5%;
+        padding: 40px;
+        border: solid;
+    }
+   
+    .nav{
+        margin:auto 0 40px;
+       
+    }
+}
